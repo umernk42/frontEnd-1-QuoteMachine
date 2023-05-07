@@ -1,0 +1,85 @@
+main{
+  background-color: #9BA4B5;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #212A3E;
+}
+
+.quote-box{
+  background-color: #F1F6F9;
+  width: 500px;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.text,.author,.click-block{
+  margin-bottom: 10px;
+  
+}
+
+.text{
+  transition:all ease-in-out;
+}
+
+.author{
+  text-align: end;
+}
+
+.click-block{
+  display: flex;
+  justify-content:space-between;
+  padding: 0 10px;
+}
+
+.new-quote{
+  background-color: #394867;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.new-quote:hover{
+  opacity: 1;
+}
+
+a {
+  background-color: #394867;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+a:active {
+  opacity: 1;
+}
+
+a:visited {
+  opacity: 1;
+}
