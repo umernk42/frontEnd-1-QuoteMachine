@@ -33,7 +33,7 @@ function App() {
               New Quote
             </button>
             <a
-            target="_blank"
+              target="_blank"
               href="twitter.com/intent/tweet"
               id="tweet-quote"
               class="tweet-quote"
